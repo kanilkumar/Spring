@@ -18,7 +18,7 @@ import com.anil.springint.constants.IntegrationConstant;
 
 @Configuration
 @ComponentScan(basePackages = "com.anil")
-@PropertySource(value = { "application.properties" })
+//@PropertySource(value = { "application.properties" })
 public class IntegrationConfiguration {
 
 	@Bean

@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
+@EnableAutoConfiguration
 public class SpringBootApp {
 
 	public static void main(String[] args) {
